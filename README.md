@@ -28,6 +28,16 @@ React has a few different kinds of components
 * **function components** are a simpler way to write components that only contain a `render` method and don't have their own state.
 
 
+* Unlike the array `push()` you might be more familiar with, the `concat()` method doesn't mutate the original array, so we prefer it
+* React elements are first-class JavaScript objects - we can pass them around in our applications.  To render multiple items  in React, we can use an array of React elements
+* In JavaScript, arrays have a `map()` method that is commonly used for mapping data to other data.  Eg:
+```
+const numbers = [1, 2, 3];
+const doubled = numbers.map(x => x * 2); // [2, 4, 6]
+```
+
+* **It's strongly recommended that you assign proper keys whenever you build dynamic lists** 
+
 ## Code snippets
 
 Saves typing (the following 2 are the same):
