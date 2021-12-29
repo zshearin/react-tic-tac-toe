@@ -1,6 +1,14 @@
 # react-tic-tac-toe
 Following tutorial for creating react tic tac toe app [here](https://reactjs.org/tutorial/tutorial.html)
 
+
+Running the application: 
+
+```
+cd my-app/src #where the index.js file is 
+npm start
+```
+
 ## Notes
 
 JavaScript build toolchain typically consists of: 
@@ -17,6 +25,7 @@ React has a few different kinds of components
 * In JavaScript classes, you need to always call `super` when defining the constructor of a subclass.  All React component classes that have a `constructor` should start with a `super(props)` call
 * Calling `this.setState` from an `onClick` handler in a component's `render` method tells React to re-render the component whenever its `<button>` is clicked
 * When you call `setState` in a component, React automatically updates the child components inside of it too
+* **function components** are a simpler way to write components that only contain a `render` method and don't have their own state.
 
 
 ## Code snippets
